@@ -31,7 +31,7 @@ export const Title = styled.h1`
   }
 `;
 
-export const Subtitle = styled.h3`
+export const Subtitle = styled.h2`
 color: #bedf32;
 margin-bottom: 1rem;
 
