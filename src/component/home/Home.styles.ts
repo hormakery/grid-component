@@ -74,7 +74,7 @@ export const TopLeft=styled.div`
 
     .price{
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       margin-right: .7rem;
     }
   }
