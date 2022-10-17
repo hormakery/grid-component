@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   padding: 3rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;
 
   @media(max-width: 650px){
