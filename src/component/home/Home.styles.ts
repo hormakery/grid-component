@@ -133,7 +133,7 @@ export const AboutList=styled.ul`
 
 export const List=styled.li`
  font-size: .8rem;
- margin-top: .5rem;
+ margin-top: .3rem;
 list-style: none;
 color: #dcdfe2;
 `
