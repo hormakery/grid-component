@@ -41,7 +41,7 @@ margin-bottom: 1rem;
 `
 
 export const Description=styled.p`
-color:  #dcdfe2;
+color:  grey;
 font-size: .9rem;
 
 `
