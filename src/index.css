@@ -7,10 +7,10 @@
 }
 
 body{
-  /* height: 100vh; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e7eff6;
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  background-color: #e6eff6;
   font-family: 'Nunito', sans-serif;
+  /* color: #4a5710; */
 }

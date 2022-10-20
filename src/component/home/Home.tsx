@@ -2,6 +2,7 @@ import React from 'react'
 import {
   About,
   List,
+  Subtag,
   Title,
   Button,
   TopLeft,
@@ -29,14 +30,14 @@ const Home = () => {
 
       <WrapperLayout>
         <TopLeft>
-          <span>Monthly Subscription</span>
+          <Subtag>Monthly Subscription</Subtag>
           <span className='list-price'><b className='price'>$29</b>per month</span>
           <b className='sub_details'>Full access for less than $1 a day</b>
-          <Button>Sign Up</Button>
+          <Button type='submit'>Sign Up</Button>
         </TopLeft>
 
         <TopRight>
-          <span>Why Us</span>
+          <Subtag>Why Us</Subtag>
           <AboutList>
             <List>Tutorials by industry experts</List>
             <List>Peer and expert code review</List>

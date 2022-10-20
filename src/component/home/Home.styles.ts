@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   padding: 3rem;
-  display: flex;
+  display: grid;
   justify-content: center;
-  flex-direction: column;
+  // flex-direction: column;
 
   @media(max-width: 650px){
     padding: 2rem;
@@ -49,11 +49,11 @@ font-size: .9rem;
 export const WrapperLayout=styled.div`
 flex: 1;
 color: #fff;
-display: flex;
-
+display: grid;
+grid-template-columns: 300px 300px;
 
 @media(max-width: 650px){
-  flex-direction: column;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 `
@@ -61,17 +61,13 @@ display: flex;
 export const TopLeft=styled.div`
  flex: 0.5;
  padding: 3rem;
- display: flex;
- flex-direction: column;
+ display: grid;
+//  flex-direction: column;
   background-color: #2bb4b1;
   // border-bottom-left-radius: .4rem;
 
   span{
-    :first-child{
-      font-weight: 500;
-      margin-bottom: .6rem;
-    }
-
+   
     .price{
       color: #fff;
       font-size: 1.6rem;
@@ -94,19 +90,30 @@ export const TopLeft=styled.div`
 
   @media(max-width: 650px){
     padding: 2rem;
-    // border-bottom-left-radius: .4rem;
-    // border-radius: none;
+    
   }
+`
+
+export const Subtag =styled.h4`
+font-weight: 600;
+margin-bottom: .6rem;
 `
 
 export const Button =styled.button`
 border: none;
 color: #fff;
+cursor: pointer;
 font-weight: 600;
 margin-top: 1.5rem;
 border-radius: .4rem;
 padding: .8rem 1.5rem;
 background-color: #bedf32;
+box-shadow: 6px 11px 15px -3px #4a5710;
+
+  :hover{
+    font-weight: 700;
+    color: #dcdfe2;
+  }
 `
 
 export const TopRight=styled.div`
